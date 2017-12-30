@@ -45,3 +45,5 @@ export default App;
     <tr><td>onPagination</td><td></td><td>Callback for page change</td></tr>
   </tbody>
 </table>
+
+<img src="paginator.gif" height="150px">

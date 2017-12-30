@@ -1,0 +1,32 @@
+{
+  "name": "@ez/react-pagination",
+  "version": "0.0.9",
+  "private": false,
+  "author": {
+    "name": "Ujjwal Sana"
+  },
+  "contributors": [
+    "Debajyoti Bhaumik"
+  ],
+  "main": "lib/Pagination.js",
+  "dependencies": {
+    "lodash": ">=4.0.0",
+    "react": ">=15.15.0",
+    "styled-components": ">=2.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clean": "rm -rf build lib",
+    "lib": "babel src --out-dir lib --ignore index.js,App.js --copy-files",
+    "prepublish": "npm-run-all clean lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "npm-run-all": "^4.1.1",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  }
+}

@@ -1,7 +1,9 @@
 # react-paginator
 A Simple react-paginator in [react.js](https://reactjs.org/)
 
+<img src="logo.png" height="150px">
 
+### Usage
 
 App.js
 ```javascript

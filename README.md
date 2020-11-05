@@ -1,9 +1,14 @@
-# react-paginator
-A Simple react-paginator in [react.js](https://reactjs.org/)
+### About
+A paginator in [react.js](https://reactjs.org/)
+
+Browse through the pages by clicking on individual page numbers, click on the "Next" & "Previous" button. The page numbers automatically re-adjust. A re usable component that can be customised according to your project needs. 
 
 <img src="logo.png" height="150px">
 
 ### Usage
+
+1. npm install
+2. npm start
 
 App.js
 ```javascript
